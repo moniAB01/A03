@@ -1,3 +1,3 @@
 let element = document.querySelector("#H");
 
-element.innerText = "its Monday";
+element.className = element.className + "pink";
