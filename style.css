@@ -2,7 +2,7 @@
   color: white;
   border: 5px solid darkblue;
   padding: 1em;
-  background-color: orange;
+  background-color: lightblue;
   text-align: center;
   font-family: Montserrat;
   font-style: bold;  /*header box*/
@@ -53,6 +53,7 @@ li a:hover {
 
 
 .par1{
+  color:darkblue;
   margin-top: 20px;
   font-family: Montserrat;
 }
