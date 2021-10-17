@@ -9,7 +9,7 @@
 }
 ul { 
   list-style-type: none;
-  margin: 30px;
+  margin: 30;
   padding: 0;
  Width: 400px;
   border-top-style: none; 
@@ -43,7 +43,14 @@ li a:hover {
 .rightcolumn {  
   margin-top: 30px;
   float: right;
-   width: 65%;}
+   width: 65%;
+}
+.right2{
+    margin-top: 40px;
+  float: inherit;
+   width: 65%;
+}
+
 
 .par1{
   margin-top: 20px;
