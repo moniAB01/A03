@@ -34,19 +34,11 @@ li a:hover {
   color: darkblue; /*hover color for nav. bar*/
 }
 
-.column {
-  float: left;
-  padding: 10px;}
-
-  .column.side {
-    width: 25%;}
-
-.column.middle {
-  width: 50%;
+.heading1{
+  color: orange;
+  text-align: center;
+  font-family: Montserrat;
 }
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+.rightcolumn {   
+  margin-left: 200px;
+  padding-left: 20px;}
