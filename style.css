@@ -1,7 +1,7 @@
-#H {
-  color: blue;
-}
+.truth {
+  border: 1px solid;
+  padding: 1em;
+  display:inline-block;
+  background-color: orange;
 
-.pink {
-  background-color: pink;
 }
