@@ -1,7 +1,14 @@
 .truth {
-  border: 1px solid;
+  color: white;
+  border: 5px solid darkblue;
   padding: 1em;
   display:inline-block;
   background-color: orange;
+}
 
+.one {
+  color: darkblue;
+  border: 1px solid orange;
+  padding: 1em;
+  background-color: white
 }
