@@ -5,10 +5,11 @@
   display:inline-block;
   background-color: orange;
 }
-
 .one {
   color: darkblue;
-  border: 1px solid orange;
+  border-style: none solid;
+  border-color: orange;
   padding: 1em;
   background-color: white
 }
+
