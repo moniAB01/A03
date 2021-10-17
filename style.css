@@ -5,19 +5,26 @@
   display:inline-block;
   background-color: orange;
 }
-.one {
-  color: darkblue;
-  border-style: none solid;
-  border-color: orange;
-  padding: 1em;
-  background-color: white
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
 }
-.two{
-color:darkblue;
-border-style: none solid;
-border-color: orange;
-padding: 1em;
-background-color: white
+li {
+  float: left;
+  border: 1px solid orange;
+}
 
+li a {
+  display: block;
+  color: darkblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: orange;
 }
