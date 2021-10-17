@@ -5,20 +5,19 @@
   background-color: orange;
   text-align: center;
   font-family: Montserrat;
-  font-style: bold;
+  font-style: bold;  /*header box*/
 }
-ul {
+ul { 
   list-style-type: none;
   margin: 0;
   padding: 0;
  Width: 400px;
-  background-color: white;
-  border-top-style: none;
+  border-top-style: none; 
   border-right-style: none;
   border-bottom-style: none;
-  border-left-style: solid, ;
-  
-  font-family: Montserrat;
+  border-left-style: solid;
+  border-color: orange;
+  font-family: Montserrat;   /*Vertical nav. bar*/
   
 }
 
@@ -27,10 +26,10 @@ li a {
   display: block;
   color: darkblue;
   padding: 8px 16px;
-  text-decoration: none;
+  text-decoration: none;  /*text for nav. bar*/
 }
 
 li a:hover {
   background-color: orange;
-  color: darkblue;
+  color: darkblue; /*hover color for nav. bar*/
 }
