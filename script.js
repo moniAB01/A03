@@ -9,5 +9,5 @@ function clicked(event){
 }
 
 function revealMessage(){
-  document.getElementById("hiddenMessage").style.display=''
+  document.getElementById("hiddenMessage").style.display='block';
 }
