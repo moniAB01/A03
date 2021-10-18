@@ -127,6 +127,22 @@ img {
 #hiddenMessage {
   display:none;
   margin-top:30px;
+  margin-right:750px;
+    margin-left: 0;
+  text-align:center;
+}
+
+#hiddenMessage1 {
+  display:none;
+  margin-top:30px;
+  margin-right:600px;
+    margin-left: 0;
+  text-align:center;
+}
+
+#hiddenMessage2 {
+  display:none;
+  margin-top:30px;
   margin-right:600px;
     margin-left: 0;
   text-align:center;
@@ -139,9 +155,9 @@ button{
   padding: 16px 32px;
   text-align: center;
    font-family: Montserrat;
-  font-size: 25px;
-  margin-top:0;
-  display: inline-block;
+  font-size: 15px;
+  margin-top:15px;
+  display: block;
   }
 
 button:hover {

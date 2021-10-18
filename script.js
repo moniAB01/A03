@@ -1,6 +1,8 @@
 let orange = document.querySelector("#clickme");
+let buttonclick = document.querySelector('#clickme2');
 
 orange.addEventListener("click", clicked);
+buttonclick.addEventListener("clickButton");
 
 function clicked(event){
   let clickedbutton = event.target; //HTML Element 
@@ -10,4 +12,15 @@ function clicked(event){
 
 function revealMessage(){
   document.getElementById("hiddenMessage").style.display='block';
+}
+function revealMessage1(){
+  document.getElementById("hiddenMessage1").style.display='block';
+}
+function revealMessage2(){
+  document.getElementById("hiddenMessage2").style.display='block';
+}
+function clickbutton(event){
+  let clickedrevealbutton = event.target; //HTML Element 
+  clickedrevealbutton.style.backgroundColor = "darkblue";
+  console.dir(event);
 }
