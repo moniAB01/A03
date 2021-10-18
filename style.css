@@ -59,6 +59,7 @@ li a:hover {
   font-family: Montserrat;
 }
 
-ul.a {
-  list-style-type: circle;
+img {
+  width: auto;
+  float:left
 }
