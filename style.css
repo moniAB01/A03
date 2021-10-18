@@ -9,7 +9,7 @@
 }
 ul { 
   list-style-type: none;
-  margin: 30;
+  margin-left: 30;
   padding: 0;
  Width: 400px;
   border-top-style: none; 
@@ -49,16 +49,22 @@ li a:hover {
   float: right;
    width: 70%;
 }
-.right2{
+.right2 {
   float: inherit;
 }
-
+.right3 {  
+  
+  margin-bottom: 30px;
+  float: right;
+   width: 100%;
+}
 
 .par1{
   color:darkblue;
   margin-top: 20px;
   font-family: Montserrat;
 }
+
 
 img {
   position: relative;
