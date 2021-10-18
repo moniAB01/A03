@@ -1,8 +1,8 @@
 let orange = document.querySelector("#clickme");
-let buttonclick = document.querySelector('#clickme2');
+let color = document.querySelector('#clickme2');
 
 orange.addEventListener("click", clicked);
-buttonclick.addEventListener("clickButton", () => );
+buttonclick.addEventListener("clickButton", buttonclick.style.backgroundColor = 'darkblue');
 
 function clicked(event){
   let clickedbutton = event.target; //HTML Element 
