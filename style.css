@@ -74,7 +74,12 @@ li a:hover {
   font-family: Montserrat;
   margin-left: 20px;
 }
-
+.par3{
+  color:darkblue;
+  margin-top: -30px;
+  font-family: Montserrat;
+  margin-right: 50px;
+}
 
 img {
   position: relative;
@@ -121,6 +126,10 @@ img {
 
 #hiddenMessage {
   display:none;
+  margin-top:30px;
+  margin-right:600px;
+    margin-left: 0;
+  text-align:center;
 }
 
 button{
@@ -131,8 +140,9 @@ button{
   text-align: center;
    font-family: Montserrat;
   font-size: 25px;
-  
-}
+  margin-top:0;
+  display: inline-block;
+  }
 
 button:hover {
   background-color: white;
