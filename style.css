@@ -19,10 +19,8 @@ ul {
   border-color: orange;
   font-family: Montserrat; /*Vertical nav. bar*/
   position: fixed;
-  transition
   
 }
-
 
 li a {
   display: block;
@@ -35,6 +33,7 @@ li a:hover {
   background-color: orange;
   color: darkblue; /*hover color for nav. bar*/
 }
+
 
 .heading1{
   color: orange;
