@@ -42,13 +42,12 @@ li a:hover {
 
 .rightcolumn {  
   margin-top: 30px;
+  margin-bottom: 30px;
   float: right;
    width: 70%;
 }
 .right2{
-    margin-top: 40px;
   float: inherit;
-   width:70%;
 }
 
 
