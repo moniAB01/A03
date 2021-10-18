@@ -66,6 +66,12 @@ li a:hover {
   margin-top: 20px;
   font-family: Montserrat;
 }
+.par2{
+  color:darkblue;
+  margin-top: 0px;
+  font-family: Montserrat;
+  margin-left: 10px;
+}
 
 
 img {
@@ -91,4 +97,10 @@ img {
   left: 150px;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+.a {
+  list-style-type: circle;
+  position: relative;
+  border: none;
 }
