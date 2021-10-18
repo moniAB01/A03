@@ -8,3 +8,6 @@ function clicked(event){
   console.dir(event);
 }
 
+function revealMessage(){
+  document.getElementById("hiddenMessage").style.display=''
+}

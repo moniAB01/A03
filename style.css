@@ -118,3 +118,7 @@ img {
   object-fit: cover;
   object-position: 5px 13%;
 }
+
+#hiddenMessage {
+  display:none;
+}
