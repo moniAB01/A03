@@ -111,3 +111,10 @@ img {
   border: none;
   margin-top: 15px;
 }
+.topimg{
+ width: 700px;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+
+}
