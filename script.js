@@ -2,16 +2,17 @@ let orange = document.querySelector("#clickme");
 let mouse = document.querySelector("#pressed");
                        
 orange.addEventListener("click", clicked);
+mouse.addEventListener("click", );
+
 
 function clicked(event){
   let clickedbutton = event.target; //HTML Element 
   clickedbutton.style.backgroundColor = "lightblue";
   console.log("Nav Clicked!");
-}
-
-function mousePressed() {
+  let mousePressed = event.target;
   console.log("Clicked!");
 }
+
 
 
 function revealMessage(){
