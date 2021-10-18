@@ -9,9 +9,11 @@
 }
 ul { 
   list-style-type: none;
-  margin-left: 30;
-  padding: 0;
+  margin-left:1px;
+  margin-top:0;
+  padding:0;
  Width: 400px;
+  height:auto;
   border-top-style: none; 
   border-right-style: none;
   border-bottom-style: none;
@@ -33,7 +35,7 @@ li a {
 li a:hover {
   background-color: orange;
   color: white; /*hover color for nav. bar*/
-  margin-left: 1em;
+  margin-left: 2em;
 }
 
 
@@ -81,6 +83,12 @@ img {
 .img3 {
   position: relative;
   left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.img4 {
+  position: relative;
+  left: 150px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
