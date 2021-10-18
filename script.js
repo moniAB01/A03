@@ -2,7 +2,7 @@ let orange = document.querySelector("#clickme");
 let buttonclick = document.querySelector('#clickme2');
 
 orange.addEventListener("click", clicked);
-buttonclick.addEventListener("clickButton", clicked);
+buttonclick.addEventListener("clickButton", () => );
 
 function clicked(event){
   let clickedbutton = event.target; //HTML Element 
