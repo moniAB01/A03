@@ -27,4 +27,5 @@ function revealMessage2(){
   document.getElementById("hiddenMessage2").style.display='block';
 }
 
-API_KEY=https://app.powerbi.com
+console.log('about to fetch covid');
+fetch('covid.video'); 
