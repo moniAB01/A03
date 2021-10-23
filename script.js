@@ -28,18 +28,18 @@ function revealMessage2(){
 }
 //fetch api
 
-fetch('https://ghoapi.azureedge.net/api/Dimension', {
+fetch('https://ghoapi.azureedge.net/api/Dimension' apiKey='20211024101859', {
   method: 'Post',
-  body: {
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
   name: 'covid 1'
-}
+})
 })
 .then(res => {
-  if(res.ok){
-    console.log('success')
-  } else {
-    console.log('not successful')
-  }
-  res.json()
+  
+ return res.json()
 })
 .then(data => console.log(data))
+.catch(error => console.log('error'))
