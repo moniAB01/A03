@@ -27,10 +27,19 @@ function revealMessage2(){
   document.getElementById("hiddenMessage2").style.display='block';
 }
 //fetch api
-function setup(){
-loadJSON('https://ghoapi.azureedge.net/api/$metadata#WHOSIS_000001' gotData);
+
+fetch('https://ghoapi.azureedge.net/api/Dimension', {
+  method: 'Post',
+  body: {
+  name: 'covid 1'
 }
-function got
-function draw(){
-  Background(0)
-}
+})
+.then(res => {
+  if(res.ok){
+    console.log('success')
+  } else {
+    console.log('not successful')
+  }
+  res.json()
+})
+.then(data => console.log(data))
