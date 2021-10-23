@@ -26,6 +26,16 @@ function revealMessage1(){
 function revealMessage2(){
   document.getElementById("hiddenMessage2").style.display='block';
 }
+//fetch api
 
-console.log('about to fetch covid');
-fetch('covid.video'); 
+fetch('https://app.powerbi.com/view?r=eyJrIjoiZTY4NTI1NzQtYTBhYy00ZTY4LTk3NmQtYjBjNzdiOGMzZjM3IiwidCI6ImI0NmMxOTA4LTAzMzQtNDIzNi1iOTc4LTU4NWVlODhlNDE5OSJ9')
+.then(response=>{
+  return response.json
+})
+
+async function getUsers(){
+  let response = await fetch('https://app.powerbi.com/view?r=eyJrIjoiZTY4NTI1NzQtYTBhYy00ZTY4LTk3NmQtYjBjNzdiOGMzZjM3IiwidCI6ImI0NmMxOTA4LTAzMzQtNDIzNi1iOTc4LTU4NWVlODhlNDE5OSJ9');
+  let data = await response.json()
+  return data;
+}
+getUsers().then(data => console.log(data));
