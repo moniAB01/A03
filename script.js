@@ -27,11 +27,10 @@ function revealMessage2(){
   document.getElementById("hiddenMessage2").style.display='block';
 }
 //fetch api
-
-
-async function getUsers(){
-  let response = await fetch('https://app.powerbi.com/view?r=eyJrIjoiZTY4NTI1NzQtYTBhYy00ZTY4LTk3NmQtYjBjNzdiOGMzZjM3IiwidCI6ImI0NmMxOTA4LTAzMzQtNDIzNi1iOTc4LTU4NWVlODhlNDE5OSJ9');
-  let data = await response.json()
-  return data;
+function setup(){
+loadJSON('https://ghoapi.azureedge.net/api/$metadata#WHOSIS_000001' gotData);
 }
-getUsers().then(data => console.log(data));
+function got
+function draw(){
+  Background(0)
+}
