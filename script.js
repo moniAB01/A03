@@ -38,4 +38,6 @@ function eligibility() {
 
 function scolled(event){
   let scrolled = event.target;
+  
+  document.getElementById("myDIV").addEventListener("scroll", myFunction);
 }
