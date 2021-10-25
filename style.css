@@ -172,6 +172,7 @@ img {
 
 span{
   transition: all 1s ease;
+  transform:translateX(800px);
     display: inline-block;
 }
 span.fade{
