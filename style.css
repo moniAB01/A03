@@ -169,6 +169,3 @@ img {
 .video{
   margin-top: 15px;
 }
-.video:hover{
- transform: translate(100px, 0px);
-}
