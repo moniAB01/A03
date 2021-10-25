@@ -40,25 +40,14 @@ let eligible = (age < 12) ? "You are not ":"You are";
   document.getElementById("vaccineage").innerHTML = eligible + " eligible to be vaccinated";
 }
 
-function movingwords(){
-  let x = new Array();
-  let y= new Array();
-  let nummoving= 50;
-  document.getElementById("tapeAtTop").style.display='block';
-  for(let i=0; i<nummoving; i++){
-    x[i]++
-    if(x[i]>200){
-      x[i]=0;
-    }
-  }
-}
+
 
 const text = document.querySelector(".tape");
-const text2 = text.textContent;
-const spliting = text2.split("");
+const strText = text.textContent;
+const splitText = strText.split("");
 text.textContent ="";
-for(let i=0; i < spliting.length; i++){
-  text.innerHTML += "<span>" + spliting[i] + "</span>";
+for(let i=0; i < splitText.length; i++){
+  text.innerHTML += "<span>" + splitT[i] + "</span>";
 }
 let char = 0;
 let timer = setInterval(onTick, 50);
