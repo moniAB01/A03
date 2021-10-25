@@ -1,6 +1,6 @@
 let orange = document.querySelector("#clickme");
 let mouse = document.querySelector("#pressed");
-let x = vaccine;
+let x = 12;
                        
 orange.addEventListener("click", clicked);
 mouse.addEventListener("click", pressed);
@@ -37,10 +37,14 @@ function scrolled(event){
 }
 
 function input(){
-    const Number = document.getElementById("id1");
-  if (Number < 12) {
+   const inpObj = document.getElementById("id1");
+  if (!inpObj.checkValidity()) {
     document.getElementById("age").innerHTML = "Sorry this age group is too young to be eligible for the vaccine";
   } else{ 
     document.getElementById("age").innerHTML = "You are eligible for the vaccine";
   }
+}
+
+function output(){
+  if (age > 12)
 }
