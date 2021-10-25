@@ -65,6 +65,6 @@ function onTick(){
 
 function complete(){
   clearInterval(timer);
-  timer = 50;
+  timer = null;
   console.log("secondtime")
 }

@@ -176,9 +176,11 @@ span{
     display: inline-block;
 }
 span.fade{
-  color: pink;
+ color:darkblue;
+  font-family: Montserrat;
   transform: translateY(0px);
 }
+span.
 p{
 color:darkblue;
   font-family: Montserrat;
