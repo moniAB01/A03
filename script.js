@@ -39,3 +39,4 @@ let age = document.getElementById("age").value;
 let eligible = (age < 12) ? "You are not ":"You are";
   document.getElementById("vaccineage").innerHTML = eligible + " eligible to be vaccinated";
 }
+
