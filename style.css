@@ -172,13 +172,14 @@ img {
 
 span{
   transition: all 1s ease;
-  transform:translateX(800px);
+  transform:translateX(2000px);
     display: inline-block;
 }
 span.fade{
  color:darkblue;
   font-family: Montserrat;
-  transform: translateY(20px);
+  transform: translateY(0px);
+  font-size: 30px;
 }
 
 p{
