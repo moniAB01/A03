@@ -68,3 +68,26 @@ function complete(){
   timer = null;
   console.log("secondtime")
 }
+
+let x = new Array();
+let y= new Array();
+for (let index=0; index < 50; index++) {
+  x[index] = 50;
+}
+
+function tape(){
+  for (let index=0; index < 50; index++ ) {
+  circle (x[index], y[index], 20 );
+    
+    x[index]++;    //move the circle to the right 1 pixel
+    y[index]++;    //move the circle to down 1 pixel
+    
+    //check to see if the ciclre has gone off the right side of the screen
+    if (x[index] > 400) {
+      x[index] = 0;    //if it has, put it back to the left side 
+    }
+    if (y[index] > 400) {
+      y[index] = 0;
+    }
+    }
+    }
