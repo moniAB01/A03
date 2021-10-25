@@ -1,5 +1,6 @@
 let orange = document.querySelector("#clickme");
 let mouse = document.querySelector("#pressed");
+let vaccine;
                        
 orange.addEventListener("click", clicked);
 mouse.addEventListener("click", pressed);
@@ -42,3 +43,6 @@ function scrolled(event){
     console.log("SCROLLED");
 }
 
+function x(){
+  vaccine <= 12; 
+}
