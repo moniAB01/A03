@@ -40,3 +40,15 @@ let eligible = (age < 12) ? "You are not ":"You are";
   document.getElementById("vaccineage").innerHTML = eligible + " eligible to be vaccinated";
 }
 
+function movingwords(){
+  let x = new Array();
+  let y= new Array();
+  let nummoving= 50;
+  document.getElementById("tapeAtTop").style.display='block';
+  for(let i=0; i<nummoving; i++){
+    x[i]++
+    if(x[i]>200){
+      x[i]=0;
+    }
+  }
+}
