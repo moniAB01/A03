@@ -39,7 +39,6 @@ function eligibility() {
 } 
 
 function scrolled(event){
-  let scroll = event.target;
-    console.log("SCROLLED" + event.delta);
+    console.log("SCROLLED");
 }
 
