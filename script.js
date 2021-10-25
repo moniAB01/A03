@@ -32,9 +32,9 @@ function revealMessage2(){
 function eligibility() {
   const inpObj = document.getElementById("id1");
   if (!inpObj.checkValidity()) {
-    document.getElementById("demo").innerHTML = "Sorry this age group is too young to be eligible for the vaccine";
+    document.getElementById("age").innerHTML = "Sorry this age group is too young to be eligible for the vaccine";
   } else {
-    document.getElementById("demo").innerHTML = "You are eligible for the vaccine";
+    document.getElementById("age").innerHTML = "You are eligible for the vaccine";
   } 
 } 
 
