@@ -27,4 +27,12 @@ function revealMessage2(){
   document.getElementById("hiddenMessage2").style.display='block';
 }
 
+function eligibility() {
+  const inpObj = document.getElementById("id1");
+  if (!inpObj.checkValidity()) {
+    document.getElementById("demo").innerHTML = "Sorry this age group is too young to be eligible for the vaccine";
+  } else {
+    document.getElementById("demo").innerHTML = "You are eligible for the vaccine";
+  } 
+} 
 
