@@ -171,6 +171,11 @@ img {
 }
 
 span{
-  transition
-  transform: translateX(50px);
+  opacity: 0;
+  transition: all 0.5s ease;
+  transform: translateX(15px);
+  display: inline-block;
+}
+span.fade{
+  opacity: 1;
 }
