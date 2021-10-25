@@ -169,7 +169,5 @@ img {
   margin-top: 15px;
 }
 .video:hover{
-  border-style: solid;
-  border-color: orange;
-  border-width: 5px;
+  transform: scale(0.5, 1.5);
 }
