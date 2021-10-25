@@ -163,11 +163,12 @@ img {
 #button1:hover {
   background-color: white;
   color: orange;
+  transform: translate(100px, 0px);
 }
 
 .video{
   margin-top: 15px;
 }
 .video:hover{
-  transform: scale(0.5, 1.5);
+ transform: translate(100px, 0px);
 }
