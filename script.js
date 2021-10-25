@@ -26,20 +26,5 @@ function revealMessage1(){
 function revealMessage2(){
   document.getElementById("hiddenMessage2").style.display='block';
 }
-//fetch api
 
-fetch('https://ghoapi.azureedge.net/api/Dimension' apiKey='20211024101859', {
-  method: 'Post',
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify({
-  name: 'covid 1'
-})
-})
-.then(res => {
-  
- return res.json()
-})
-.then(data => console.log(data))
-.catch(error => console.log('error'))
+
