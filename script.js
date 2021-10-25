@@ -1,6 +1,6 @@
 let orange = document.querySelector("#clickme");
 let mouse = document.querySelector("#pressed");
-let vaccine;
+let x = vaccine;
                        
 orange.addEventListener("click", clicked);
 mouse.addEventListener("click", pressed);
@@ -30,19 +30,17 @@ function revealMessage2(){
   document.getElementById("hiddenMessage2").style.display='block';
 }
 
-function eligibility() {
-  const inpObj = document.getElementById("id1");
-  if (!inpObj.checkValidity()) {
-    document.getElementById("age").innerHTML = "Sorry this age group is too young to be eligible for the vaccine";
-  } else {
-    document.getElementById("age").innerHTML = "You are eligible for the vaccine";
-  } 
-} 
+
 
 function scrolled(event){
     console.log("SCROLLED");
 }
 
-function x(){
-  vaccine <= 12; 
+function input(){
+    const Number = document.getElementById("id1");
+  if (Number < 12) {
+    document.getElementById("age").innerHTML = "Sorry this age group is too young to be eligible for the vaccine";
+  } else{ 
+    document.getElementById("age").innerHTML = "You are eligible for the vaccine";
+  }
 }
