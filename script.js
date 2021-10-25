@@ -3,6 +3,8 @@ let mouse = document.querySelector("#pressed");
                        
 orange.addEventListener("click", clicked);
 mouse.addEventListener("click", pressed);
+document.addEventListener("scroll", scrolled);
+
 
 
 function clicked(event){
@@ -36,8 +38,8 @@ function eligibility() {
   } 
 } 
 
-function scolled(event){
-  let scrolled = event.target;
-  
-  document.getElementById("myDIV").addEventListener("scroll", myFunction);
+function scrolled(event){
+  let scroll = event.target;
+    console.log("SCROLLED" + event.delta);
 }
+
