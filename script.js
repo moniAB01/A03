@@ -53,4 +53,27 @@ function movingwords(){
   }
 }
 
-const 
+const text = document.querySelector(".tape");
+const text2 = text.textContent;
+const spliting = text2.split("");
+text.textContent ="";
+for(let i=0; i < spliting.length; i++){
+  text.innerHTML += "<span>" + spliting[i] + "</span>";
+}
+let char = 0;
+let timer = setInterval(onTick, 50);
+
+function onTick(){
+  const span = text.querySelectoryAll('span')[char];
+  span.classList.add('fade');
+  char++
+  if(char === spliting.length){
+    complete();
+    return;
+  }
+}
+
+function complete(){
+  clearInterval(timer);
+  timer = null;
+}

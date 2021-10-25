@@ -169,3 +169,8 @@ img {
 .video{
   margin-top: 15px;
 }
+
+span{
+  transition
+  transform: translateX(50px);
+}
