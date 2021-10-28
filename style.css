@@ -86,7 +86,7 @@ li a:hover {
 img {
   position: relative;
   left: 450px;
-} /*position of first image & so on*/
+} /*position images & so on*/
 
 .img2 {
   position: relative;
@@ -133,7 +133,7 @@ img {
   margin-right:750px;
     margin-left: 0;
   text-align:center;
-}
+} /*text style*/
 
 #hiddenMessage1 {
   display:none;
@@ -161,31 +161,31 @@ img {
   font-size: 15px;
   margin-top:15px;
   display: block;
-  }
+  } /*colours and borders for hidden message buttons*/
 
 #button1:hover {
   background-color: white;
   color: orange;
   transform: translate(100px, 0px);
-}
+} /*hover for the above buttons*/
 
 .video{
   margin-top: 15px;
-}
+} /*to provide room between objects*/
 
 span{
   transition: all 1s ease;
   transform:translateX(2000px);
     display: inline-block;
-}
+} /*for the word movement at the top of page*/
 span.fade{
  color:darkblue;
   font-family: Montserrat;
   transform: translateY(0px);
   font-size: 30px;
-}
+}/*this is font and movement*/
 
 p{
 color:darkblue;
   font-family: Montserrat;
-  }
+  }/*making sure that the words that move are the right font and colour ^dont think the above worked*/
