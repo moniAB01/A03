@@ -44,36 +44,38 @@ li a:hover {
   color: orange;
   font-family: Montserrat;
   margin-top: 30px;
-}
+} /*subheadings*/
 
 .rightcolumn {  
   margin-top: 30px;
   margin-bottom: 30px;
   float: right;
-   width: 70%;
+   width: 70%; /*puts writing to the right side of the webpage*/
 }
 .right2 {
   float: inherit;
-}
+} /*picks up what is happening on top for margin purposes*/
+
 .right3 {  
-  
   margin-bottom: 30px;
   float: right;
    width: 100%;
-}
+} /*when margin width needs to be bigger*/
 
 .par1{
   color:darkblue;
   margin-top: 20px;
   font-family: Montserrat;
   margin-right: 50px;
-}
+} /*pargraph style*/
+
 .par2{
   color:darkblue;
   margin-top: 0px;
   font-family: Montserrat;
   margin-left: 20px;
 }
+
 .par3{
   color:darkblue;
   margin-top: -30px;
@@ -84,7 +86,7 @@ li a:hover {
 img {
   position: relative;
   left: 450px;
-}
+} /*position of first image & so on*/
 
 .img2 {
   position: relative;
@@ -110,13 +112,14 @@ img {
   list-style-type: circle;
   position: relative;
   border: none;
-}
+} /*for dot points, this is a list, same for .b*/
 .b {
   list-style-type: circle;
   position: relative;
   border: none;
   margin-top: 15px;
 }
+
 .topimg{
  width: 1050px;
   height: 585px;
